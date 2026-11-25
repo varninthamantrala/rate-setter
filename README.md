@@ -1,3 +1,5 @@
+# rate-setter
+Interactive interest rate and monetary economics simulation
 # Rate Setter — The Verra Ledger
 
 You are the Governor of the Reserve Bank of Verra for 24 quarters (three 8-quarter terms). Set the policy rate, forward guidance and, as terms unlock, lending standards, asset purchases and FX defence. Presented as a newspaper front page. All data are fictional and simulated.
@@ -36,3 +38,8 @@ The engine is a pure function of (seed, decisions), so the server never trusts a
 | `GET /api/runs/mine` (auth) | your history |
 
 Limits: replay verification stops forged scores, but a player can still compute optimal decisions offline with their own bot; the board proves a run was legal, not that a human played it. Auth endpoints have a simple in-memory per-IP rate limit.
+<<<<<<< HEAD
+Your local README content
+=======
+GitHub README content
+>>>>>>> origin/main
